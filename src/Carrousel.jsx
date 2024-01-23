@@ -34,24 +34,23 @@ export default function Carrousel() {
     position: 'absolute',
     height:"40px",
     zIndex: 1,
-    right: "250px", // Posicionar a la derecha del texto y las imágenes
-    center: '10px', // Misma altura que el margen superior de las imágenes
-    transform: 'rotate(90deg)', // Rotar la flecha 90 grados
-    cursor: 'pointer', // Agregar un cursor para indicar que es interactivo
+    right: "250px", 
+    center: '10px',
+    transform: 'rotate(90deg)', 
+    cursor: 'pointer', 
   };
-  // ...
+
 
 const arrowStyle2 = {
   position: 'absolute',
   height: '40px',
   zIndex: 1,
-  right: '200px', // Posicionar a la derecha del texto y las imágenes
-  buttom: '10px', // Misma altura que el margen superior de las imágenes
-  transform: 'rotate(-90deg)', // Rotar la flecha -90 grados para apuntar hacia el otro lado
-  cursor: 'pointer', // Agregar un cursor para indicar que es interactivo
+  right: '200px', 
+  buttom: '10px', 
+  transform: 'rotate(-90deg)', 
+  cursor: 'pointer', 
 };
 
-// ...
 
 
   return (
