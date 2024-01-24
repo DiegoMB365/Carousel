@@ -69,14 +69,14 @@ export default function Carrousel() {
         }
       >
         <Carousel.Item>
-          <img style={imageStyle} src={cat} alt='Primera foto' />
-          <img style={imageStyle} src={music} alt='Segunda foto' />
-          <img style={imageStyle} src={cat2} alt='Tercera foto' />
+          <img style={imageStyle} src={cat} alt='Gato' />
+          <img style={imageStyle} src={music} alt='Musica' />
+          <img style={imageStyle} src={cat2} alt='Gato 2' />
         </Carousel.Item>
         <Carousel.Item>
-          <img style={imageStyle} src={love} alt='Primera foto' />
-          <img style={imageStyle} src={butterfly} alt='Segunda foto' />
-          <img style={imageStyle} src={music2} alt='Tercera foto' />
+          <img style={imageStyle} src={love} alt='Amor' />
+          <img style={imageStyle} src={butterfly} alt='Mariposa' />
+          <img style={imageStyle} src={music2} alt='Musica 2' />
         </Carousel.Item>
       </Carousel>
     </>
