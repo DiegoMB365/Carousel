@@ -2,7 +2,8 @@
 
 
 import './App.css'
-import Carrousel from './Carrousel'
+import Carrousel from './components/Carrousel'
+
 
 function App() {
 
